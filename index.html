@@ -3,26 +3,164 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Страница Дневника</title>
-    <link rel="stylesheet" href="styles.css"> <!-- Подключите ваш CSS файл -->
+    <title>Форум Эхо Пропавшего Города</title>
+        <style>
+       body {
+            font-family: sans-serif;
+            margin: 20px;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        .forum-container {
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+        }
+        .forum-topic {
+            border-bottom: 1px solid #eee;
+            padding-bottom: 10px;
+            margin-bottom: 10px;
+        }
+        .topic-title {
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+        .topic-author {
+            font-size: small;
+            color: #777;
+        }
+        .topic-content {
+            margin-top: 10px;
+        }
+        .reply {
+            border-top: 1px solid #eee;
+            margin-top: 10px;
+            padding-top: 10px;
+            font-size: smaller;
+
+        }
+        .reply-author {
+            font-weight: bold;
+            display: inline;
+            margin-right: 5px;
+        }
+        .reply-date {
+            font-style: italic;
+            display: inline;
+        }
+    </style>
 </head>
 <body>
-    <div class="diary-page">
-        <h1>Запись в Дневнике</h1>
-        <h2>15 марта 2023 года</h2>
-        <p>Сегодня был странный день. Я нашел старый дневник в чердаке, заполненный неразборчивыми символами и заметками. Он, похоже, принадлежал писателю, который исчез много лет назад. Я не могу избавиться от ощущения, что этот дневник содержит секреты, которые ждут, чтобы их раскрыли. Я чувствую, что мне нужно узнать больше о его владельце и о том, что произошло с ним.</p>
+    <div class="forum-container">
+        <h1>Форум Эхо Пропавшего Города</h1>
 
-        <h2>18 марта 2023 года</h2>
-        <p>Я провел весь день, исследуя местные библиотеки и архивы. Кажется, все вокруг знают о загадочном исчезновении, но никто не хочет говорить об этом. Я встретил женщину, которая утверждала, что знала Александра. Она сказала, что он был одержим идеей написать роман о древнем проклятии, которое связано с этим городом. Я должен найти больше информации о его работе.</p>
+        <div class="forum-topic">
+            <div class="topic-title">Странные сны</div>
+            <div class="topic-author">Сомнамбула (2024-10-24)</div>
+            <div class="topic-content">
+                Мне несколько ночей подряд снится один и тот же сон: пустой город, окутанный туманом. В центре стоит высокая башня… Кто-нибудь еще видел что-то подобное?
+            </div>
+            <div class = "reply">
+                <span class = "reply-author">Ночной_странник</span>
+                <span class = "reply-date">2024-10-24</span>
+                <div class = "reply-content">Похоже на описание города Эхо из старых легенд. Говорят, перед исчезновением его часто видели во снах.</div>
+            </div>
+            <div class = "reply">
+                <span class = "reply-author">Тень_прошлого</span>
+                <span class = "reply-date">2024-10-28</span>
+                <div class = "reply-content">В моих снах эта башня всегда окутана фиолетовым сиянием. Жуткое зрелище.</div>
+            </div>
+        </div>
 
-        <h2>22 марта 2023 года</h2>
-        <p>Сегодня я посетил старый замок, где жил Александр. Это место полное тайн и мрачной красоты. Я нашел несколько его книг, и они были полны заметок и пометок. Кажется, он был на грани открытия чего-то важного. Я чувствую, что приближаюсь к разгадке, но туман вокруг меня становится все гуще. Я не знаю, кому доверять.</p>
+        <div class="forum-topic">
+            <div class="topic-title">Теории о порталах</div>
+            <div class="topic-author">Скептик (2024-10-25)</div>
+            <div class="topic-content">
+                Читал статью о теориях порталов. Может ли это объяснить исчезновение целого города? Звучит бредово, но...
+            </div>
+            <div class = "reply">
+                <span class = "reply-author">Загадочный_странник</span>
+                <span class = "reply-date">2024-10-25</span>
+                <div class = "reply-content">В легендах говорилось о "вратах", открывающихся раз в столетие. Совпадение? Не думаю...</div>
+            </div>
+            <div class = "reply">
+                <span class = "reply-author">Следопыт</span>
+                <span class = "reply-date">2024-10-26</span>
+                <div class = "reply-content">Мой дед рассказывал, что видел в небе странное свечение за несколько дней до того, как город исчез. Может быть, это связано?</div>
+            </div>
+            <div class = "reply">
+                <span class = "reply-author">Инженер</span>
+                <span class = "reply-date">2024-10-29</span>
+                <div class = "reply-content">Если портал и существовал, то какая-то мощная энергия должна была его открыть. Возможно, геологические процессы или эксперименты...</div>
+            </div>
+        </div>
 
-        <h2>25 марта 2023 года</h2>
-        <p>Я нашел еще одну подсказку в дневнике. Она указывает на "Туманные холмы". Я не знаю, что это значит, но я чувствую, что это ключ к разгадке. Я должен пойти туда завтра. Но я также чувствую, что кто-то следит за мной. Это пугает, но я не могу остановиться. Я должен узнать правду.</p>
+        <div class="forum-topic">
+            <div class="topic-title">Архивы библиотеки</div>
+            <div class="topic-author">Книжный_червь (2024-10-26)</div>
+            <div class="topic-content">
+                Пытаюсь найти хоть какие-то упоминания о городе Эхо в старых библиотечных архивах. Пока безуспешно. Может, кто-то знает, где еще можно поискать?
+            </div>
+            <div class = "reply">
+                <span class = "reply-author">Архивариус</span>
+                <span class = "reply-date">2024-10-27</span>
+                <div class = "reply-content">Попробуйте обратиться в краеведческий музей. У них могут быть записи или документы, связанные с историей региона.</div>
+            </div>
+            <div class = "reply">
+                <span class = "reply-author">Исследователь1</span>
+                <span class = "reply-date">2024-10-27</span>
+                <div class = "reply-content">Я слышал, что у одного коллекционера есть старые карты местности. Возможно, на них есть отметки города Эхо.</div>
+            </div>
+            <div class = "reply">
+                <span class = "reply-author">Картограф</span>
+                <span class = "reply-date">2024-10-30</span>
+                <div class = "reply-content">Я просмотрел несколько старых карт, но название "Эхо" нигде не встречается. Возможно, город имел другое название?</div>
+            </div>
+        </div>
 
-        <h2>30 марта 2023 года</h2>
-        <p>Я наконец-то добрался до Туманных холмов. Это место действительно волшебное и жуткое одновременно. Я нашел старую хижину, и внутри были вещи, которые когда-то принадлежали Александру. Я чувствую, что он оставил мне эти подсказки. Но я также чувствую, что я не один. Кто-то наблюдает за мной, и я не знаю, как долго я смогу оставаться в безопасности.</p>
+        <div class="forum-topic">
+            <div class="topic-title">Записи с диктофона</div>
+            <div class="topic-author">Аудиофил (2024-10-27)</div>
+            <div class="topic-content">
+                Нашел старый диктофон. На одной из кассет - странные шумы и помехи. Похоже на запись эфира. Может, кто-нибудь сможет помочь с анализом?
+            </div>
+            <div class = "reply">
+                <span class = "reply-author">Радиолюбитель</span>
+                <span class = "reply-date">2024-10-28</span>
+                <div class = "reply-content">Выложите запись, я попробую проанализировать спектр. Возможно, удастся выделить какие-то сигналы.</div>
+            </div>
+            <div class = "reply">
+                <span class = "reply-author">Аудиофил</span>
+                <span class = "reply-date">2024-10-29</span>
+                <div class = "reply-content">Запись слишком шумная, много помех. Похоже на искаженный голос...</div>
+            </div>
+        </div>
+        <div class="forum-topic">
+            <div class="topic-title">Местные легенды</div>
+            <div class="topic-author">Историк_любитель (2024-10-30)</div>
+            <div class="topic-content">
+                Пообщался с местными жителями из соседней деревни. Они рассказывают легенду о проклятии, которое пало на город Эхо. Говорят, что-то потревожило покой древних духов...
+            </div>
+        </div>
+        <div class="forum-topic">
+            <div class="topic-title">Странные отпечатки на старом шоссе</div>
+            <div class="topic-author">Автомобилист (2024-10-31)</div>
+            <div class="topic-content">
+                Проезжал на днях по старому шоссе, которое ведет к Эхо. Заметил на асфальте странные отпечатки, будто от очень тяжелой техники или… лап? Кто-нибудь еще видел что-то подобное?
+            </div>
+            <div class="reply">
+                <span class="reply-author">Скептик</span>
+                <span class="reply-date">2024-10-31</span>
+                <div class="reply-content">Скорее всего, это следы от старой сельхозтехники. Там же раньше поля были.</div>
+            </div>
+            <div class="reply">
+                <span class="reply-author">Следопыт</span>
+                <span class="reфply-date">2024-11-01</span>
+                <div class="reply-content">Не уверен. Отпечатки выглядят слишком глубокими и расположены как-то… неравномерно.</div>
+            </div>
+        </div>
+
     </div>
 </body>
 </html>
